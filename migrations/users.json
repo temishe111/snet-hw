@@ -1,0 +1,42 @@
+[
+  {
+    "first_name": "Алексей",
+    "second_name": "Иванов",
+    "birthdate": "1990-05-14",
+    "biography": "Люблю программировать, заниматься спортом и читать книги.",
+    "city": "Москва",
+    "password": "password123"
+  },
+  {
+    "first_name": "Мария",
+    "second_name": "Смирнова",
+    "birthdate": "1985-11-23",
+    "biography": "Интересуюсь искусством, музыкой и путешествиями.",
+    "city": "Санкт-Петербург",
+    "password": "securePass1"
+  },
+  {
+    "first_name": "Дмитрий",
+    "second_name": "Кузнецов",
+    "birthdate": "1992-07-30",
+    "biography": "Занимаюсь фотографией и изучаю иностранные языки.",
+    "city": "Новосибирск",
+    "password": "DmitriP@ss"
+  },
+  {
+    "first_name": "Анна",
+    "second_name": "Попова",
+    "birthdate": "1988-03-18",
+    "biography": "Увлекаюсь кулинарией, йогой и волонтерством.",
+    "city": "Екатеринбург",
+    "password": "Annie2021"
+  },
+  {
+    "first_name": "Иван",
+    "second_name": "Соколов",
+    "birthdate": "1995-12-05",
+    "biography": "Люблю играть в шахматы, заниматься бегом и смотреть кино.",
+    "city": "Казань",
+    "password": "iV@Nch3k"
+  }
+]
