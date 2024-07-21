@@ -62,4 +62,25 @@ readonly class UserRepository
 
         return $result;
     }
+
+    /**
+     * @param string $firstName
+     * @param string $lastName
+     * @return array
+     * @throws \Doctrine\DBAL\Exception
+     */
+    public function searchUserByName(string $firstName, string $lastName): array
+    {
+        $sql = '
+            SELECT first_name, second_name, birthdate, biography, city FROM users
+            WHERE first_name like ? and second_name like ?
+        ';
+
+        $connection = $this->entityManager->getConnection();
+        $stmt = $connection->prepare($sql);
+        $stmt->bindValue(1, $firstName . '%');
+        $stmt->bindValue(2, $lastName . '%');
+
+        return $stmt->executeQuery()->fetchAllAssociative();
+    }
 }
